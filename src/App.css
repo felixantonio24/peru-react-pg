@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Inter:wght@900&display=swap');
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    font-family: 'Dancing Script';
+    font-family: 'Inter';
+    
+
+}
+
+ul{
+    display:flex;
+    justify-content:flex-end;
+    gap: 55px;
+    color: var(--white);
+    list-style-type: none;
+    margin-right: 60px;
+}
+ul li a {
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 1px 4px var(--black);
+    padding: 4px;
+  }
+  a:hover{
+    color: var(--black);
+  }
+  li{
+    transition: 0.5s;
+  }
+  li:hover{
+    transform: scale(1.2);
+
+  }
+video{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    z-index: -1;
+    top: 0;
+    width: 100%;
+    height:80.01%;
+
+}
+:root
+{
+    --white:#f9fafc;
+    --black:rgb(8, 8, 8);
+    --Lead: rgb(54, 54, 54);
+    --yellow: 
+}
+
+
+
+
+.tittle{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 220px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    color:var(--white);
+    font-size: 79px;
+    text-shadow: 10px 5px 10px var(--black); 
+}
+
+.Boton-Container{
+    display:flex;
+    justify-content: center;
+    gap: 150px;
+    font-family: 'Dancing Script', cursive;
+    position: relative;
+    margin-top: 150px;
+
+}
+
+/*BTNES*/
+
+.btn-places{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 4px 1px 3px var(--black);
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.btn-placefoot{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow:4px 1px 3px var(--black);
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+
+.btn-regions{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 18px;
+    box-shadow: 3px 1px 5px var(--black);
+    cursor: pointer;
+    background-color: var(--white);
+}
+
+.btn-places:hover{
+    background-color: rgb(156, 146, 146);
+    color: var(--black);
+    text-shadow: 1px 2px 5px var(--white);
+}
+
+.btn-placefoot:hover{
+    background-color:  rgb(156, 146, 146);
+    color: var(--black);
+    text-shadow: 1px 2px 5px var(--white);
+}
+
+.btn-regions:hover{
+    background-color:  rgb(156, 146, 146);
+    color: var(--black);
+    text-shadow: 1px 2px 6px var(--white);
+}
+
+.icon-ubicacion{
+    width: 25px;
+    
+}
+
+.placer-food-icon{
+    width: 30px;
+}
+
+.regions-icon{
+    width: 30px;
+    gap:px;
+}
+main,h1,p,a{
+    margin: 0;
+    padding: 0;
+}
+.cuerpo{
+    z-index: -1;
+    position: absolute;
+    padding: 0;
+    margin-top: -26.5px;
+    object-fit: cover;
+    width: 100%;
+    opacity: 0.2;
+    }
+
+    .title_news{
+        color:var(--lead);
+        font-family: 'Dancing Script', cursive;
+        font-family: 'Inter', sans-serif;
+        display: flex;
+        z-index: 1;
+        margin-left: 40px; 
+        margin-top: 30px;
+        font-size: 30px;
+    }
+.title_h2_coffe{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+    margin-left: 50px;
+}
+
+.img_coffe_title{
+    width: 800px;
+    margin-left: 189px;
+    height: 400px;
+
+}
+.container_news{
+    text-decoration: none;
+    color: rgb(49, 47, 47);
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Inter', sans-serif;
+}
