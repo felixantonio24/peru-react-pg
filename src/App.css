@@ -195,3 +195,29 @@ main,h1,p,a{
     font-family: 'Dancing Script', cursive;
     font-family: 'Inter', sans-serif;
 }
+
+
+.Title-Peruvian{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bolder; 
+   margin-left: 20px;
+
+}
+
+.Title_Span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bolder; 
+   margin-left: 20px;
+
+
+}
+
+
+.img-cofee{
+    width: 810px;
+    height: 550px;
+    display: flex;
+margin-left: 50px;
+}

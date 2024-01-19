@@ -1,0 +1,9 @@
+.Container_About{
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black;
+    width: 450px;
+    height: 450px;
+    justify-content: center;
+    background-color: rgb(69, 59, 59);
+}

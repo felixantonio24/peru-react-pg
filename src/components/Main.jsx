@@ -1,9 +1,22 @@
 import React from "react"
 import { useState, useEffect } from "react"
+import About from "./About";
 
 const Main = () => {
     const [text, setText] = useState('Welcome to Peru');
+   
+const click = () =>{
+
+  useEffect(() =>{
   
+  })
+
+}
+
+
+
+
+
     useEffect(() => {
       const textLoad = () => {
         setTimeout(() => {
@@ -26,6 +39,9 @@ const Main = () => {
       return () => clearInterval(interval);
     }, []);
 
+
+    
+
     return (
         <>
         <header>
@@ -34,7 +50,7 @@ const Main = () => {
             </div>
                 <nav>   
                     <ul> 
-                    <li> <a href="/Abaout">About</a></li>
+                    <li> <a href="/Abaout" onClick={click} >About</a></li>
                     <li> <a href="/Gallery">Gallery</a></li>
                     <li> <a href="/Contact">Contact</a></li>
                     </ul> 
@@ -43,12 +59,17 @@ const Main = () => {
          <h1 className="tittle">{text}</h1>
 
          <div className="Boton-Container"> 
-        <button className="btn-places"> <img src="components/img/localizador-de-lugares.png" alt="places-icon" className="icon-ubicacion"/>TOP PLACE LIMA</button>
+        <button className="btn-places"> <img src="/localizador-de-lugares.png" alt="places-icon" className="icon-ubicacion"/>TOP PLACE LIMA</button>
         
-        <button className="btn-placefoot"> <img src="components/img/helado.png" alt="comida-lugares-icon" className="placer-food-icon"/> FOOD PLACES</button>
+        <button className="btn-placefoot"> <img src="/helado.png" alt="comida-lugares-icon" className="placer-food-icon"/> FOOD PLACES</button>
 
-        <button className="btn-regions"> <img src="components/img/alfiler.png" alt="regions-icon" class="regions-icon"/>  REGIONS</button>
+        <button className="btn-regions"> <img src="/alfiler.png" alt="regions-icon" className="regions-icon"/>  REGIONS</button>
     </div>
+        <div>
+        <img src="/scrapbook-2472422_1280.jpg" alt="body" className="cuerpo"/>
+        </div>
+        
+
         </>
     )
 }
